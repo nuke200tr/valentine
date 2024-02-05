@@ -5,6 +5,21 @@ html {
 body {
   margin: 0;
   font-family: "Work Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #93d0ea, #8fe4db);
+}
+
+.tenor-gif-embed {
+  width: 50vw; /* 50% of the viewport width */
+  height: 40vh; /* 40% of the viewport height */
+}
+
+.valentine-message {
+  font-size: 2em;
+  color: #ff4081; /* Set text color to a mesmerizing color */
+  animation: mesmerize 4s infinite alternate; /* Apply animation */
 }
 
 .container {
